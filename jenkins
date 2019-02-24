@@ -30,7 +30,7 @@ Vagrant.configure(2) do |config|
      export GOROOT=/usr/local/go
      export GOPATH=/usr/local/go/bin
      export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
-     go get github.com/disintegration/imaging && go get github.com/satori/go.uuid && go get golang.org/x/crypto/bcrypt && go get github.com/go-sql-driver/mysql
+     go get github.com/disintegration/imaging && go get github.com/satori/go.uuid && go get golang.org/x/crypto/bcrypt && go get github.com/go-sql-driver/mysql && go get github.com/op/go-logging
      sudo apt-get install -y python3-pip
      sudo pip3 install --upgrade pydub && sudo pip3 install --upgrade pafy && sudo pip3 install --upgrade youtube-dl
      sudo pip3 install pyinstaller
